@@ -1,0 +1,9 @@
+@import "header";
+@import "banner";
+
+$color: green;
+
+p{
+  color: $color;
+  margin: 10px;
+}
