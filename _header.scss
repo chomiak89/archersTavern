@@ -56,3 +56,43 @@ header ul {
         }
     }
 }
+
+@media only screen and (max-width: 647px) {
+  header {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .logoImg{
+    width: 25%;
+    height: 25%;
+  }
+  .socialMediaBar {
+    margin-right: 0;
+  }
+  .icons {
+    order: -2;
+    width: 100%;
+  }
+  .logo {
+    order: -1;
+  }
+  header ul {
+    order: 1;
+    width: 100%;
+    flex-direction: column;
+      li {
+        display: block;
+        width: 100%;
+        text-align: center;
+        line-height: 40px;
+        margin: 5px 0 5px 0;
+        border-top: 1px solid grey;
+        border-bottom: 1px solid grey;
+          a {
+            margin-left: 0;
+            display: block;
+            width: 100%;
+          }
+      }
+  }
+}
