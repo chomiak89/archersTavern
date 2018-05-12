@@ -1,0 +1,12 @@
+.mainContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.cont1,
+.cont2 {
+  width: 30%;
+}
