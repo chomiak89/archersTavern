@@ -34,6 +34,7 @@ header {
 .socialMediaBar {
   transition: transform .2s;
   margin-right: 10px;
+  fill: #fff;
     &:hover {
       transform: scale(1.1);
     }
