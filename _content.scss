@@ -37,3 +37,38 @@
 .fbFeed {
   margin: 2% 0;
 }
+
+@media only screen and (max-width: 1090px) {
+  .mainContent {
+    flex-wrap: wrap;
+  }
+  .cont1,
+  .cont2 {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 647px) {
+  .mainContent {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .cont1,
+  .cont2 {
+    width: 40%;
+  }
+  }
+
+  @media only screen and (max-width: 520px) {
+    .mainContent {
+      flex-direction: column;
+      align-items: center;
+    }
+    .cont1,
+    .cont2 {
+      width: 80%;
+    }
+    .fbFeed {
+      display: none;
+    }
+  }
