@@ -30,3 +30,27 @@
   float: right;
   margin: 15px;
 }
+
+@media only screen and (max-width: 647px) {
+  .formContainer {
+    flex-direction: column;
+    height: 40em;
+  }
+  .contactInfo,
+  .email {
+    width: 80%;
+    height: 40%;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .formContainer {
+    flex-direction: column;
+    height: 40em;
+  }
+  .contactInfo,
+  .email {
+    width: 80%;
+    height: 40%;
+  }
+}
