@@ -9,6 +9,7 @@
     </style>
     <title></title>
     <link rel="stylesheet" type="text/css" href="styles.min.css">
+
   </head>
   <body>
 
@@ -35,37 +36,51 @@
       </div>
     </header>
 
-
-    <div class="formContainer">
-      <!-- <div class="mainImg">
-        <img src="img/bar2.jpg">
-      </div> -->
-      <div class="contactInfo">
-        <p>Address:</p>
-        <p>6021 S Archer rd <br> Summit Il, 60501</p>
-        <br>
-        <p>Tel: (708)328-4763</p>
-        <p>Email: kc@archerstavern.net</p>
+    <div class="row">
+      <div class="column">
+        <img id="image1" class="responsiveImg" src="img/gallery/giveaway.jpg" onmouseover="getVar(this)">
+        <img id="image2" class="responsiveImg" src="img/gallery/truly.jpg" onmouseover="getVar(this)">
+        <img id="image3" class="responsiveImg" src="img/gallery/placeholder2.jpg" onmouseover="getVar(this)">
+        <img id="image4" class="responsiveImg" src="img/gallery/placeholder6.jpg" onmouseover="getVar(this)">
       </div>
-      <div class="email">
-        <form action="">
-          <p>Name:
-            <input type="text" name="name" />
-          </p>
-          <p>Email:
-            <input type="text" name="email" />
-          </p>
-          <p>Message:</p>
-            <textarea id="emailMessage" placeholder="Write your message here:" name="message"></textarea>
-            <input id="emailSubmitBtn" type="submit" name="send" value="Send" />
-        </form>
+      <div class="column">
+        <img id="image5" class="responsiveImg" src="img/gallery/party.jpg" onmouseover="getVar(this)">
+        <img id="image6" class="responsiveImg" src="img/gallery/games.jpg" onmouseover="getVar(this)">
+        <img id="image7" class="responsiveImg" src="img/gallery/placeholder3.jpeg" onmouseover="getVar(this)">
+        <img id="image8" class="responsiveImg" src="img/gallery/placeholder7.jpg" onmouseover="getVar(this)">
+      </div>
+      <div class="column">
+        <img id="image9" class="responsiveImg" src="img/gallery/selfie.jpg" onmouseover="getVar(this)">
+        <img id="image10" class="responsiveImg" src="img/gallery/drinks.jpg" onmouseover="getVar(this)">
+        <img id="image11" class="responsiveImg" src="img/gallery/poolTable.jpg" onmouseover="getVar(this)">
+        <img id="image12"class="responsiveImg" src="img/gallery/placeholder4.jpg" onmouseover="getVar(this)">
+      </div>
+      <div class="column">
+        <img id="image13" class="responsiveImg" src="img/gallery/pool.jpg" onmouseover="getVar(this)">
+        <img id="image14" class="responsiveImg" src="img/gallery/placeholder1.jpeg" onmouseover="getVar(this)">
+        <img id="image15" class="responsiveImg" src="img/gallery/placeholder5.jpeg" onmouseover="getVar(this)">
+        <img id="image16" class="responsiveImg" src="img/gallery/placeholder8.jpeg" onmouseover="getVar(this)">
       </div>
     </div>
 
+        <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+      <!-- The Close Button -->
+      <span class="close">&times;</span>
+
+      <!-- Modal Content (The Image) -->
+      <img class="modal-content" id="img01">
+
+      <!-- Modal Caption (Image Text) -->
+      <div id="caption"></div>
+    </div>
 
     <footer>
       <p>Copyright &copy; Archer's Tavern 2018</p>
     </footer>
+
+    <script type="text/javascript" src="js/modal.js"></script>
 
   </body>
 </html>
