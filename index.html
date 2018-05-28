@@ -9,6 +9,7 @@
     </style>
     <title></title>
     <link rel="stylesheet" type="text/css" href="styles.min.css">
+    <link rel="stylesheet" type="text/css" href="flickity.min.css">
   </head>
   <body>
 
@@ -35,20 +36,33 @@
       </div>
     </header>
     <div class="bannerContainer">
-      <div class="mainImg">
 
-
-
-
-        <img src="img/bar2.jpg">
+      <div class="main-carousel" data-flickity='{ "contain": true, "autoPlay": true, "autoPlay": 4500, "wrapAround": true, "prevNextButtons": false }'>
+        <div id="cell1" class="carousel-cell">
+          <!-- <img class="slideImg" src="img/beer.jpg"> -->
+        </div>
+        <div id="cell2" class="carousel-cell">
+          <!-- <img src="img/beer.jpg"> -->
+        </div>
       </div>
 
 
-
-
-
-
+      <!-- <div class="mainImg">
+        <img src="img/bar2.jpg">
+      </div> -->
     </div>
+
+
+    <!-- <div class="main-carousel" data-flickity='{ "cellAlign": "center", "contain": true }'>
+      <div class="carousel-cell">
+        <img src="img/beer.jpg">
+      </div>
+      <div class="carousel-cell">
+        <img src="img/beer.jpg">
+      </div>
+    </div> -->
+
+
     <div class="mainContent">
       <div class="cont1">
         <img src="img/beer.jpg">
@@ -78,6 +92,8 @@
     <footer>
       <p>Copyright &copy; Archer's Tavern 2018</p>
     </footer>
+
+    <script type="text/javascript" src="js/flickity.pkgd.min.js"></script>
 
   </body>
 </html>
