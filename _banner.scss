@@ -50,22 +50,24 @@
 }
 
 .slideImg {
-  object-fit: fill;
+  width: 100%;
+  height: 100%;
+  margin: auto 0;
 }
 
-#cell1 {
-  background-image: url(img/slides/giveaway.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-#cell2 {
-  background-image: url(img/slides/pool.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
+// #cell1 {
+//   background-image: url(img/slides/giveaway.png);
+//   background-size: contain;
+//   background-repeat: no-repeat;
+//   background-position: center;
+// }
+//
+// #cell2 {
+//   background-image: url(img/slides/pool.png);
+//   background-size: contain;
+//   background-repeat: no-repeat;
+//   background-position: center;
+// }
 
 
 
