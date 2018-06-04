@@ -95,3 +95,12 @@
     background-size: cover;
   }
 }
+
+@media only screen and (min-width: 1000px) {
+  .main-carousel {
+    width: 70%;
+  }
+  // .bannerContainer {
+  //   height: 35em;
+  // }
+}
