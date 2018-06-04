@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 40px;
+  justify-content: center;
+  background-image: url(img/background.jpeg);
+  background-size: cover;
+  border: 1px solid #564f40;
+  padding: 30px;
+  color: #fff;
+}
+.special1 {
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.65);
+  padding: 30px;
+  width: 80%;
+  text-align: center;
+    h3 {
+      text-transform: uppercase;
+    }
+    img {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+}
